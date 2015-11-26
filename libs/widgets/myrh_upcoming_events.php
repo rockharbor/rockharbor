@@ -37,7 +37,7 @@ class myRH_Upcoming_Events extends Widget {
             'groupid' => array('ccbpress_all_groups'),
             'grouptype' => array('ccbpress_all_grouptypes'),
             'department' => array('ccbpress_all_departments'),
-            'theme' => 'graphical',
+            'widgettheme' => 'graphical',
             'daterange' => '4 weeks',
             'howmany' => 5,
             'showcalendarlink' => 'hide'
@@ -89,7 +89,7 @@ class myRH_Upcoming_Events extends Widget {
             'groupid' => array('ccbpress_all_groups'),
             'grouptype' => array('ccbpress_all_grouptypes'),
             'department' => array('ccbpress_all_departments'),
-            'theme' => 'graphical',
+            'widgettheme' => 'graphical',
             'daterange' => '4 weeks',
             'howmany' => 5,
             'showcalendarlink' => 'hide'

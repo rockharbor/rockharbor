@@ -51,10 +51,10 @@
     </select>
 </p>
 <p>
-    <label for="<?php echo $widget->get_field_id( 'theme' ); ?>">Theme events as </label>
-    <select id="<?php echo $widget->get_field_id( 'theme' ); ?>" name="<?php echo $widget->get_field_name( 'theme' ); ?>">
-        <option <?php selected( $data['theme'], 'text' ); ?> value="text">plain text</option>
-        <option <?php selected( $data['theme'], 'graphical' ); ?> value="graphical">graphical</option>
+    <label for="<?php echo $widget->get_field_id( 'widgettheme' ); ?>">Theme events as </label>
+    <select id="<?php echo $widget->get_field_id( 'widgettheme' ); ?>" name="<?php echo $widget->get_field_name( 'widgettheme' ); ?>">
+        <option <?php selected( $data['widgettheme'], 'text' ); ?> value="text">plain text</option>
+        <option <?php selected( $data['widgettheme'], 'graphical' ); ?> value="graphical">graphical</option>
     </select>
 </p>
 <p>
