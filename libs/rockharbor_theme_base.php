@@ -883,6 +883,10 @@ class RockharborThemeBase {
 			'after_title' => '</h1></header><div class="widget-body">',
 		));
 
+		if (class_exists('CCBPress_Upcoming_Events')) {
+	        include_once 'widgets' . DS . 'myrh_upcoming_events.php';
+	        register_widget('myRH_Upcoming_Events');
+	    }
 		include_once 'widgets' . DS . 'social_widget.php';
 		register_widget('SocialWidget');
 		include_once 'widgets' . DS . 'image_grid_widget.php';
